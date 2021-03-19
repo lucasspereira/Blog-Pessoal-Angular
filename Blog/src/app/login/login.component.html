@@ -1,39 +1,33 @@
-<div class="container-fluid">
+<body class="img-g">
+    <div>
+        <div class="d-flex justify-content-center" style="padding-top: 4%;">
+            <div>
+                <div class="d-flex justify-content-center">
+                    <img src="../../assets/img/logo.png" height="200px" width="200px" alt="Logo Nave">
+                </div>
 
-    <div class="row d-flex align-items-center">
+                <div class="form-group text-white">
+                    <label for="usuario"></label>
+                    <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Usuário">
+                </div>
 
-        <div class="col-md-6">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-6">
-                    <h1 class="text-center mb-3">Login</h1>
+                <div class="form-group text-white">
+                    <label for="senha"></label>
+                    <input class="form-control" type="password" name="senha" id="senha" placeholder="Senha">
+                </div><br>
 
-                    <div class="form-group">
-                        <label for="usuario">Usuário</label>
-                        <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Usuário">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="senha">Senha</label>
-                        <input class="form-control" type="password" name="senha" id="senha" placeholder="Senha">
-                    </div>
-
-                    <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-dark">
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-light">
                             Entrar
                         </button>
-                    </div>
+                </div><br><br>
+                <p class="text-center text-white font-weight-bold">
+                    Não possui uma conta? <a routerLink="/cadastrar">Cadastre-se!</a>
+                </p>
 
-                    <hr class="mt-5 mb-5">
-
-                    <p class="text-center">
-                        Não possui uma conta? <a href="">Cadastre-se!</a>
-                    </p>
-
-                </div>
             </div>
-
         </div>
-        <div class="col-md-6" id="img-bg"></div>
 
     </div>
-</div>
+
+</body>

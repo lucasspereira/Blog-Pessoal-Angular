@@ -1,6 +1,18 @@
 #img-bg {
-    background-image: url(../../assets/img/img-galaxy.jpg);
+    background-image: url(../../assets/img/galaxiacadastro.jpg);
     min-height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-color {
+    background-color: #040406;
+}
+
+.img-g {
+    background: url(../../assets/img/galaxia03.jpg);
+    min-height: 625px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
