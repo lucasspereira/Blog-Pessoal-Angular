@@ -13,8 +13,8 @@ html {
 }
 
 .img-g {
-    background: url(../../assets/img/galaxia01.jpg);
-    height: 100%;
+    background: url(../../assets/img/galaxia03.jpg);
+    min-height: 625px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
