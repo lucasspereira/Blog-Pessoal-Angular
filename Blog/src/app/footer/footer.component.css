@@ -28,3 +28,7 @@ ul.social-network li {
 .fs-10 {
     font-size: 10pt;
 }
+
+.img-g {
+    background: url(../../assets/img/bg-nav.jpg);
+}
