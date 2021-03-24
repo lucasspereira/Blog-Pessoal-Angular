@@ -5,3 +5,11 @@
 .fs-14 {
     font-size: 14pt;
 }
+
+.bg-nav {
+    background-color: black;
+}
+
+.img-g {
+    background: url(../../assets/img/bg-nav.jpg);
+}
