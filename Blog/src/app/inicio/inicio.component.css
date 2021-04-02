@@ -5,3 +5,19 @@
 .fs-18 {
     font-size: 18pt;
 }
+
+.img-bg-inicio {
+    background: url(../../assets/img/bg-nav.jpg);
+}
+
+.style-sair {
+    text-decoration: none;
+}
+
+.ml-neg {
+    margin-left: -200px;
+}
+
+.ml-pos {
+    margin-left: 80px;
+}
