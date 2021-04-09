@@ -9,12 +9,13 @@
             <li class="nav-item active">
                 <img src="{{foto}}" class="img-fluid rounded-circle" width="50px" height="50px" alt="Imagem Usuário">
             </li>
+
             <li class="nav-item pl-3">
                 <p class="text-dark font-weight-bold m-0">Olá, {{nome}}</p>
             </li>
 
             <li class="nav-item pl-3">
-                <a href="">
+                <a [routerLink]="['/user-edit', id]">
                     <i class="fa fa-pencil-square-o d-flex align-items-center fs-15 text-dark pt-1" aria-hidden="true"></i>
                 </a>
             </li>
