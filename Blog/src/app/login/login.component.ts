@@ -30,6 +30,7 @@ export class LoginComponent implements OnInit {
       environment.nome = this.userLogin.nome  //Entrar já com os atributos do usuário
       environment.foto = this.userLogin.foto  //Entrar já com os atributos do usuário
       environment.id = this.userLogin.id      //Entrar já com os atributos do usuário
+      environment.tipo = this.userLogin.tipo
 
       console.log(environment.token)
       console.log(environment.nome)
